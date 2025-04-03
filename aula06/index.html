@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        function principal(){
+            var base, altura, resultado;
+            base = Number( window.prompt("Digite o Primeiro Valor"));
+            altura = Number(window.prompt("Digite o Segundo Valor"));       
+            resultado = calcArea(base, altura);
+            document.write("Area: " + resultado);
+        }
+
+        function calcArea(p1, p2){
+            var res;
+            res= p1*p2;
+            return res;
+        }
+
+    </script>
+
+
+<body>
+    <h1>Testando funções e procedimantos</h1>
+    <button onclick="principal()">Calcular</button>
+</body>
+
+</body>
+</html>

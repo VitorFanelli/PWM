@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // .toFixed 
+        var valor=354.2
+        document.write("O Valor é " + valor.toFixed(5))
+
+        var valor1 = String(354.2)
+        document.write("<br> " + valor1)
+        
+        // .repleace
+        var valor2 = String(354.2)
+        document.write("<br> Valor: " + valor2.replace('.' , ','))
+        var p = "Bom dia"
+        document.write(p.replace(' Bom dia' , 'Boa noite'))
+        
+        // .length
+        var nome = window.prompt("Digite seu nome: ")
+        document.write("<br> Seu nome possui " + nome.length + " letras")
+
+        var palavra = window.prompt("Digite uma palavra")
+        document.write("<br> Maiuscula " + palavra.toUpperCase())
+        document.write("<br> Minuscula " + palavra.toLowerCase())
+        
+        
+
+        
+    </script>
+
+</body>
+</html>

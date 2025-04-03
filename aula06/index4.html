@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+        function mostrarnome(){
+            var nome = window.prompt("Digite seu Nome: ")
+            window.alert("Nome: " + nome)
+        }
+
+        function falaroi(){
+            var oi = window.prompt("Deseja falar oi? [Sim/Não]")
+            if(oi == "Sim"){
+                window.alert("Oi Brasa!!!")
+            }
+        }
+
+        function sair(){
+            var sair = window.prompt("Deseja despedir-se de Brasa?")
+        }
+        
+
+
+
+
+  </script>
+
+  <h1>Testando botões</h1>
+  <button onclick="mostrarnome()">Mostrar Nome</button>
+  <button onclick="falaroi()">Falar oi</button>
+  <button onclick="sair()">Sair</button>
+</body>
+</html>
